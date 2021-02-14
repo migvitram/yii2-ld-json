@@ -1,0 +1,29 @@
+{
+    "name": "migvitram/yii2-ld-json",
+    "description": "Widget for ld-json markup",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","ld-json"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michail Korchemliuk",
+            "email": "migvitram@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0.13"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "migvitram\\ldJson\\": "src"
+        }
+    },
+    "extra": {
+        "bootstrap": "migvitram\\ldJson\\Bootstrap",
+        "branch-alias": {
+          "dev-master": "0.0.1-dev",
+          "dev-develop": "0.0.2-dev"
+        }
+    }
+}
