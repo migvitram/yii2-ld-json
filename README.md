@@ -41,7 +41,7 @@ It will make json data output. And than add the next, everywhere
 use migvitram\ldJson\JsonLDWidget;
 
 JsonLDWidget::widget([
-    'inputData' => [ ... ], // data of the project
+    'inputData' => [ ... ], // data of the product
     'type' => JsonLDWidget::TYPE_PRODUCT,
 ]);
  
